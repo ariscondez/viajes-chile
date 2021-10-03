@@ -29,6 +29,8 @@ h2 {
 }
 
 .sec1 {
+    padding-top: 20px;
+    display: none;
     display: block;
 }
 
@@ -65,7 +67,7 @@ footer {
 
 
 
-    @media (max-width: 994px) {
+    @media (max-width: 524px) {
         .sec1 {
             padding-top: 20px;
             display: none;

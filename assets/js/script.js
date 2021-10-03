@@ -4,5 +4,8 @@ $(document).ready(function(){
         $(this).css("color", "black");
     });
 
-
 });
+
+$( function (){
+    $('[data-bs-toggle="tooltip"]').tooltip()
+} )
